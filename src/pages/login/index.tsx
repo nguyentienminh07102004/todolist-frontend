@@ -55,7 +55,7 @@ export const LoginPage: React.FC = (): React.ReactElement => {
 				setFetching(true);
 				const res: APIResponse = (
 					await axios.post(
-						"http://localhost:8081/api/users/login/google",
+						"http://todolist-backend-production-c148.up.railway.app/api/users/login/google",
 						{ code: params.get("code") },
 						{
 							withCredentials: true,
