@@ -1,0 +1,9 @@
+GET http://localhost:8080:/api/upload/
+Content-Type: {
+  "Content-Type": "multipart/form-data",
+  "Authorization": "Bearer " + token,
+}
+
+{
+  "email": 
+}
